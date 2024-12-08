@@ -5,6 +5,7 @@
 1. config.파일에서 본인의 계정,비밀번호를 입력합니다.
 2. 다운로드 받고 싶은 계정, 또는 url을 입력합니다 (이때 계정또는 url 앞에는 tab을 넣어야합니다)
 3. 계정 또는 url 뒤에 ' // n' 을 넣을경우 n개만큼만 다운로드 합니다
+4. DEFAULT_PATH 는 기본다운로드 폴더입니다.  기본값은 .으로 되어있으며 현재 폴더 위치(파일 실행한 위치)로 되있습니다.
 
 ## B .ipynb
 
@@ -25,7 +26,8 @@
 1. Enter your account and password in the config file.
 2. Input the Instagram account or URL you want to download from (make sure to add a tab before the account or URL).
 3. If you want to limit the download to a specific number, add ' // n' after the account or URL, where n is the number of posts to download.
-
+4. DEFAULT_PATH is the default download folder. The default value is set to '.' which represents the current folder location (the folder where the file is executed from).
+   
 ## B. .ipynb
 
 1. **insta.ipynb**
